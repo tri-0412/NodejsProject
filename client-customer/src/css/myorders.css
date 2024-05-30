@@ -1,0 +1,81 @@
+/* myorders.css */
+
+.my-orders {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.order-list,
+.order-details {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.order,
+.order-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.order:hover,
+.order-item:hover {
+  background-color: #f5f5f5;
+}
+
+.order-info,
+.item-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.order-date,
+.order-customer,
+.order-phone,
+.order-total,
+.order-status,
+.item-number,
+.item-name,
+.item-price,
+.item-quantity,
+.item-total {
+  flex: 1;
+}
+
+/* Additional styling for the detail table */
+.order-details {
+  margin-top: 20px;
+}
+
+.order-items-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.order-items-header div {
+  flex: 1;
+  text-align: center;
+}
+
+.order-item,
+.order-items-header div {
+  border: 1px solid #ddd;
+}
+
+.order-items-header div:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.order-items-header div:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.item-image img {
+  max-width: 100px;
+  height: auto;
+}

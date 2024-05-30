@@ -1,0 +1,57 @@
+/* footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    display: flex;
+    align-items: center; /* Align icons and text vertically to the center */
+    justify-content: center; /* Center the content horizontally */
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 25px;
+    width: 35px;
+  }
+  
+  .social-icons img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .logo {
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the icon styling */
+  .contact-info svg {
+    margin-right: 5px; /* Adjust this margin as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  

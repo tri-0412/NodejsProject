@@ -1,0 +1,45 @@
+/* category.css */
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .category-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Additional styling for heading */
+  .category-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styling for float-clear */
+  .float-clear {
+    clear: both;
+  }
+  
+  .outer-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .category-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .category-heading {
+    color: #3498db;
+  }

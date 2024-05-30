@@ -1,0 +1,36 @@
+/* ... (existing CSS) */
+
+.order-list,
+.order-detail {
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.order-item,
+.order-detail-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.order-item:hover,
+.order-detail-item:hover {
+  background-color: #f5f5f5;
+}
+
+.order-item div,
+.order-detail-item div {
+  margin-bottom: 5px;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

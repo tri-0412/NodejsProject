@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Style for the menu container */
+  .border-bottom {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style for the left side menu */
+  .float-left {
+    float: left;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Style for the search form and right side container */
+  .float-right {
+    float: right;
+  }
+  
+  .search {
+    display: flex;
+  }
+  
+  .keyword {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  /* Style for the clear float element */
+  .float-clear {
+    clear: both;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px; /* Kích thước chữ */
+    transition: color 0.3s ease, opacity 0.3s ease; /* Hiệu ứng chuyển động khi hover */
+  }
+  
+  /* Hiệu ứng khi hover */
+  .menu li:hover a {
+    color: #a1a0a0; /* Màu chữ khi hover */
+    opacity: 3; /* Độ mờ khi hover */
+  }
+/* Thêm kiểu cho chữ trong thẻ li */
+.menu li {
+    display: inline-block;
+    margin-right: 20px; /* Tăng khoảng cách giữa các thẻ */
+    border-right: 1px solid #676464; /* Vách ngăn giữa các thẻ */
+    padding-right: 10px; /* Khoảng cách giữa vách ngăn và chữ */
+  }
+  
+  .menu li:last-child {
+    border-right: none; /* Loại bỏ vách ngăn ở thẻ cuối cùng */
+  }
+  /* Thêm kiểu cho thanh tìm kiếm */
+.search {
+    display: flex;
+  }
+  
+  .keyword {
+    padding: 5px;
+    margin-right: 5px;
+    border: 2px solid #615e5e; /* Viền cho thẻ input */
+    border-radius: 5px; /* Bo góc cho viền */
+  }
+    
+  .search input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Bo góc cho viền */
+  }
+  
+  /* Hover effect for the search button */
+  .search input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Style for the search input when focused */
+  .keyword:focus {
+    outline: none;
+    border: 1px solid #4CAF50; /* Viền màu khi ô input được focus */
+  }
+
+  .Link-logout {
+    font-weight: 800;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #353737;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .Link-logout:hover {
+    background-color: #b9292b;
+  }
+  

@@ -1,0 +1,20 @@
+.dashboard-stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .dashboard-stat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .dashboard-stats-container a {
+    text-decoration: none;
+  }
+  .dashboard-stats-container .dashboard-stat:hover {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+    cursor: pointer; /* Optional: Change cursor to pointer on hover */
+  }

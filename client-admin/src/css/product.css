@@ -1,0 +1,133 @@
+.product-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-list {
+    width: 60%;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 1px; /* Adjust the padding to make the product-item smaller */
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-info {
+    flex-grow: 0.5;
+    max-width: 50%;
+    text-align: center; /* Center text in product-info */
+  }
+  
+  .product-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .product-detail {
+    width: 35%;
+  }
+  
+  .product-item img {
+    width: 250px; /* Adjust the width to make the image smaller */
+    height: 250px; /* Adjust the height to make the image smaller */
+    /* object-fit: cover;  */
+    margin-bottom: 5px; /* Add some space below the image */
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination-item {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-item.active {
+    font-weight: bold;
+  }
+  .product-info span {
+    display: block;
+    margin-bottom: 5px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+  }
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the pagination items horizontally */
+  }
+  
+  .pagination-item {
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 8px 12px; /* Add some padding to the pagination items for better visual appearance */
+    border: 1px solid #ddd; /* Add a border to the pagination items */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s; /* Add a smooth transition for the background color */
+  }
+  
+  .pagination-item:hover {
+    background-color: #f2f2f2; /* Add a background color on hover */
+  }
+  
+  .pagination-item.active {
+    font-weight: bold;
+    background-color: #007bff; /* Add a background color for the active pagination item */
+    color: #fff; /* Set text color for the active pagination item */
+    border-color: #007bff; /* Set border color for the active pagination item */
+  }
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add a smooth transition for transform and box-shadow */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05); /* Enlarge the product item on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+  }
+  
+  .product-info {
+    flex-grow: 0.5;
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .product-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .product-item img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  .product-info {
+    flex-grow: 0.5;
+    max-width: 70%;
+    text-align: left;
+    background-color: #f8f8f8; /* Light background color */
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Add smooth transitions */
+  
+    /* Hover effect */
+  }
+  
+  .product-item:hover .product-info {
+    background-color: #ffffff; /* Change background color on hover */
+    transform: translateY(-5px); /* Add a subtle upward lift on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhance box shadow on hover */
+  }

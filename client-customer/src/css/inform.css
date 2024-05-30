@@ -1,0 +1,47 @@
+/* inform.css */
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .inform {
+    font-size: 16px;
+  }
+  
+  .inform a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .inform a:hover {
+    color: #a1a0a0; /* Màu chữ khi hover */
+    opacity: 3; /* Độ mờ khi hover */
+  }
+  
+  .float-right a {
+    text-decoration: none;
+    /* color:white; */
+    transition: color 0.3s ease;
+  }
+  
+  .float-right a:hover {
+    color: #a1a0a0; /* Màu chữ khi hover */
+    opacity: 3; /* Độ mờ khi hover */
+  }
+  
+  .float-clear {
+    clear: both;
+  }
+  .float-right {
+    color: white;
+  }
+  .inform b {
+    color: #3498db; /* Màu sắc mong muốn */
+  }

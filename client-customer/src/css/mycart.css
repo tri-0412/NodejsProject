@@ -1,0 +1,50 @@
+.table-container {
+    margin: 20px;
+  }
+  
+  .table-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .product-image {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .link {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .link:hover {
+    color: darkblue;
+  }
+  
+  .total-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start, adjust as needed */
+    margin-top: 20px;
+  }
+  
+  .total-info {
+    display: flex;
+    flex-direction: column;
+  }

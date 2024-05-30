@@ -1,0 +1,82 @@
+body, h1, h2, p, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    /* background: url('../images/banner.jpg') no-repeat; */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+  
+  .signup-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(32, 33, 35, 0.8); /* Use rgba with alpha channel for transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-title {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-table {
+    width: 100%;
+  }
+  
+  .signup-table td {
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .signup-table input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-top: 5px;
+    box-sizing: border-box;
+    transition: border-bottom 0.3s;
+  }
+  
+  .signup-table input:focus {
+    border-bottom: 2px solid #3970b0;
+    outline: none;
+  }
+  
+  .signup-table input[type="submit"] {
+    background-color: #3970b0;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-table input[type="submit"]:hover {
+    background-color: #305c8e;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .signup-container {
+      width: 80%;
+    }
+  } 

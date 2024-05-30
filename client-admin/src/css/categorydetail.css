@@ -1,0 +1,61 @@
+/* categoryDetail.css */
+
+.category-detail-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .category-detail-heading {
+    text-align: center;
+    color: #3498db;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .category-detail-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; /* Đặt chiều rộng là 100% */
+    box-sizing: border-box; /* Đảm bảo chiều rộng bao gồm cả padding và border */
+  }
+  
+  input,
+  button {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    margin-right: 5px; /* Thêm margin giữa các nút bấm */
+  }
+  
